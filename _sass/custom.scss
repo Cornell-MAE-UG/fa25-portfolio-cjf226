@@ -139,16 +139,13 @@ footer {
 }
 
 .project-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 100%;
+  justify-content: center;
 }
 
 .gallery-item {
-  overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
   max-width: 250px; 
